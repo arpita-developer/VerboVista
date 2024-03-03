@@ -5,12 +5,11 @@ VerboVista is a comprehensive language learning platform designed to help users 
 ## Features
 
 - **Interactive Lessons**: Engaging lessons designed to improve vocabulary, grammar, listening, speaking, and reading skills.
-- **Personalized Learning Paths**: Customized learning paths based on user proficiency levels and learning goals.
-- **Language Proficiency Tests**: Assessments to measure language proficiency and track progress over time.
-- **Multi-Platform Access**: Access VerboVista on desktop, tablet, and mobile devices for seamless learning on the go.
+- **Personalized Learning Paths**: Customized learning paths based on user learning goals.
+- **Language Proficiency Tests**: Assessments to measure language proficiency.
 - **Community Interaction**: Connect with fellow learners, participate in language exchange activities, and engage with native speakers.
 - **Progress Tracking**: Monitor learning progress, view achievements, and receive personalized recommendations for further improvement.
-- **Resource Library**: Access a vast collection of language resources, including articles, videos, podcasts, and more.
+- **Resource Library**: Access a vast collection of language resources, including articles, videos,songs, podcasts, and more.
 
 ## Getting Started
 
@@ -29,12 +28,9 @@ VerboVista is built using the following technologies:
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js, Express.js, MongoDB
-- **API Integration**: Third-party language APIs for content and exercises
-- **Deployment**: Heroku for hosting
 
-## Contributing
 
-Contributions to VerboVista are welcome! If you have any suggestions, feature requests, or bug reports, please feel free to submit an issue or create a pull request.
+
 
 ## License
 
