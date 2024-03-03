@@ -1,6 +1,6 @@
-# VerboVista Language Learning Platform
+<h1 style=text-align:center;>VerboVista Language Learning Platform</h1>
 
-![VerboVistaWebsite]()
+![VerboVistaWebsite](VerboVista-Website.png)
 
 VerboVista is a comprehensive language learning platform designed to help users enhance their language skills effectively. With a user-friendly interface and a wide range of features, VerboVista offers an immersive learning experience tailored to individual needs.
 
