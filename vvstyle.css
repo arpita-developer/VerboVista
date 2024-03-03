@@ -1,0 +1,172 @@
+
+  *{
+    background-color: #b5e5f7;
+    margin: 0%;
+    padding: 0%;
+  }
+  h1{
+    background-color: rgba(18, 103, 230, 0.5);
+    color:#333A73 ;
+    padding:2% ;
+    font-size:3em ;
+    font-style: italic;
+    text-align:center ;
+    margin: 0%;
+
+  }
+  h2{
+    text-align: center;
+    margin-bottom:20px ;
+  }
+  #navbar{
+    display:flex ;
+    background-color: rgb(236, 207, 165);
+   justify-content: flex-end;
+    margin-top:0px ;
+    margin-bottom: 2%;
+    padding:15px ;
+    padding-left:60% ;
+    margin-left:0% ;
+    /*text-shadow: #836FFF  1px 0 10px; */
+}
+.nvbr{
+    float: right;
+    padding-left:15px ;
+    padding-right: 15px;
+    font-size:20px ;
+    font-weight: 200;
+    text-decoration: none;
+    background-color: rgb(236, 207, 165);
+    color: #387ADF;
+    font-weight: bolder;
+    transition: 1s ;
+
+}
+#fimg{
+    border-radius: 50%;
+}
+#wel{
+position: absolute;
+text-shadow:rgb(94, 78, 233)  2px 0 10px  ;
+display: flex;
+right: 20vh;
+top:35vh;
+font-size: 40px;
+font-weight: bolder;
+
+}
+#tag{
+position: absolute;
+top:45vh;
+display: flex;
+right: 20vh;
+font-size: 40px;
+font-weight: bolder;
+text-shadow: rgb(94, 78, 233)  2px 0 10px ;
+}
+.aboutus{
+    background-color: aliceblue;
+    height: max-content;
+    border-radius: 10%;
+    margin: 60px ;
+    padding: 10%;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.courses{
+    background-color: aliceblue;
+    height: max-content;
+    border-radius: 10%;
+    margin: 60px ;
+    padding: 10%;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.account,#accountForm{
+    background-color: aliceblue;
+    height: max-content;
+    border-radius: 10%;
+    margin: 60px ;
+    padding: 10%;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-form,#contactForm{
+    background-color: aliceblue;
+    height: max-content;
+    border-radius: 10%;
+    margin: 60px ;
+    padding: 2%;
+    font-size:20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#dropdown{
+    
+    background-color:#FBA834 ;
+    height: 20px;
+}
+#ddown{
+    justify-content: center;
+    display: flex;
+}
+#accountForm{
+    background-color: #e9c086;
+    margin-top: 10px;
+    
+    border: 3px  #FBA834 solid ;
+    height: max-content;
+    border-radius: 10%;
+    margin: 0px ;
+    font-size:20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#accountForm label{
+    background-color: #e9c086;   
+}
+.socialmedia,.socialmedia i,footer p{
+    margin:5px 5px 5px 5px;
+    background-color: #FBA834 ;
+}
+.socialmedia a{
+   padding:10px;
+   border-radius: 30%;
+   background-color: #FBA834 ;
+}
+.socialmedia a:hover{
+    background-color: #AC7D88;
+    transition: 0.5s;
+}
+
+footer {
+    margin:0;
+    background-color: #FBA834 ;
+    padding: 10px;
+    text-align: center;
+}
+input,#name,#email{
+background-color: rgba(130, 188, 239, 0.5);
+height:50px ;
+width: 40%;
+color: #333A73;
+}
+label{
+    background-color:aliceblue; ;
+}
+#message{
+    height:30vh ;
+    width: 40%;
+}
+#crbtn,#subbtn{
+    background-color:#387ADF ;
+    color: #ffffff;
+    font-size:15px ;
+    height:60px ;
+    padding:15px ;
+    border-radius: 10px;
+}
+#subbtn{
+    width: 40%;  
+}

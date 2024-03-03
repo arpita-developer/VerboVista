@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> VerboVista </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="vvstyle.css">
+ 
+</head>
+<body>
+  <div class="heading"> 
+    <h1> VerboVista</h1>
+  </div>  
+  <div id="navbar">
+   
+       <a class="nvbr" href="">Home</a>
+       <a class="nvbr" href="#aboutUs">About Us</a>
+       <a class="nvbr" href="#course">Courses</a>
+       <a class="nvbr" href="#account">Account</a>
+       <a class="nvbr" href="#contactSection">Contact Us</a>
+    </div>
+  <div class="intro">
+   
+    <div class="intro-text">
+    <div id="wel"> Welcome to VerboVista!</div>
+    <div id="tag">Unlock Your Multilingual Potential...</div>
+    </div>
+    <img id="fimg" src="https://miro.medium.com/v2/resize:fit:729/1*gt152Mlt-70W9tX9UJ2PWA.png " alt="img_here">
+  </div>
+  <div class="aboutus" id="aboutUs">
+    <h2 > ABOUT US</h2>
+   At VirboVista, we're passionate about languages and dedicated to helping you on your language learning journey. Whether you're a beginner or an experienced learner, our goal is to provide you with the resources you need to succeed.<br><br>
+   Our platform offers a wide range of language learning materials, including tutorials, articles, videos, and interactive exercises, designed to cater to diverse learning styles and preferences. From grammar guides to vocabulary lists, pronunciation tips to cultural insights, we've got everything you need to take your language skills to the next level.<br><br>
+   What sets us apart is our commitment to quality and accessibility. We work with experienced linguists and educators to ensure that our content is accurate, up-to-date, and engaging. And with our user-friendly interface, you can easily navigate our site and find the resources you need, whenever and wherever you are.<br><br>
+  So whether you're learning a language for travel, work, school, or simply for the joy of it, we're here to support you every step of the way. Join us at VerboVista and embark on an exciting language learning adventure today!<br><br>
+  </div>
+  <div class="courses" id="course">
+    <h2> COURSES</h2>
+    
+    <select id="dropdown">
+      <option value="">Select a language</option>
+      <option value="Hindi.html">Hindi</option>
+      <option value="spanish.html">Spanish</option>
+      <option value="French">French</option>
+      <option value="German">German</option>
+      <option value="Turkish">Turkish</option>
+      <option value="Chinese">Chinese</option>
+      <option value="Arabic">Arabic</option>
+    </select> 
+
+  </div>
+  <div class="account"  id="account">
+    <h2> YOUR PROFILE</h2>
+    <form id="accountForm" onsubmit="validateForm(event)">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required><br>
+      <span id="usernameError" class="error"></span><br>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <span id="emailError" class="error"></span><br>
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+      <span id="passwordError" class="error"></span><br>
+  
+      <button value="Create Account" id="crbtn">Create Account</button> 
+  </form>
+  </div>
+  <section class="contact-section" id="contactSection">
+   
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea><br>
+           <button id="subbtn" type="submit" value="Send">Send</button> 
+        </form>
+        <div id="errorDiv" class="error"></div>
+    </div>
+</section>
+<footer>
+    <div class="socialmedia">
+    <a href=""><i class="fa-brands fa-facebook"></i></a>
+    <a href=""><i class="fa-brands fa-instagram"></i></a>
+    <a href=""><i class="fa-brands fa-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-google-plus"></i></a>
+    <a href=""><i class="fa-brands fa-youtube"></i></a>
+    </div>
+    <p>&copy; 2024 VerboVista | Designed by Team Hackstallation</p>
+</footer>
+</body>
+<script src="vvscript.js"></script>
+</html>
